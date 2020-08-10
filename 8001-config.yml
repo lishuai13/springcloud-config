@@ -3,7 +3,7 @@ spring:
   active: dev
 ---
 spring:
-  profile: dev
+  profiles: dev
   datasource:
     username: root
     password: 143188
@@ -37,7 +37,7 @@ info:
   build.version: ${project.version}
 ---
 spring:
-  profile: test
+  profiles: test
   datasource:
     username: root
     password: 143188
